@@ -29,7 +29,7 @@ export default function SignupPage() {
       className="flex m-auto h-screen flex-col items-center justify-center gap-5 max-w-[400px]"
       onSubmit={handleSubmit}
     >
-      <p className="text-2xl">Sign up</p>
+      <p className="text-2xl">My Ecommerce</p>
       <div className="flex flex-col gap-5 w-full">
         <Input
           type="text"

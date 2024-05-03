@@ -24,9 +24,8 @@ async function registerUser({
       email,
       password
     );
-    await setDoc(doc(db, "users", userCredential.user.uid), {
+    await setDoc(doc(db, "company", userCredential.user.uid), {
       email,
-      isAdmin: true,
     });
 
     return {

@@ -33,7 +33,7 @@ export default function LoginPage() {
       className="flex m-auto h-screen flex-col items-center justify-center gap-5 max-w-[400px]"
       onSubmit={handleSubmit}
     >
-      <p className="text-2xl">Login</p>
+      <p className="text-2xl">My Ecommerce</p>
       <div className="flex flex-col gap-5 w-full">
         <Input
           type="text"
@@ -49,6 +49,12 @@ export default function LoginPage() {
       <Button className="w-full" disabled={loading}>
         Login
       </Button>
+      <p>
+        If you don't have an account, you can{" "}
+        <a href="/signup" className="underline text-blue-500">
+          signup
+        </a>
+      </p>
     </form>
   );
 }
