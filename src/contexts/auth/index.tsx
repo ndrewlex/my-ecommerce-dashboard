@@ -23,7 +23,6 @@ export const AuthProvider: FC<{ children: ReactNode }> = ({ children }) => {
         setUser(res.data?.user);
         navigate("/profile");
       }
-      console.log({ res });
     },
     [navigate, setUser]
   );
